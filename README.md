@@ -7,19 +7,20 @@ Allow users to organise a voting process.
 ## Install 
 
 Please make the following command
-```
+```bash
  cd Voting && npm install && npm start
 ```
 
 ## Test
 To test, please make the following command:
-```
+```bash
  cd Voting && npm test
 ```
 
 you can add the Gas Reporter: 
-```
+```bash
  export REPORT_GAS=1; cd Voting && npm test
+```
 ```
 ·------------------------------------------|----------------------------|-------------|-----------------------------·
 |           Solc version: 0.8.13           ·  Optimizer enabled: false  ·  Runs: 200  ·  Block limit: 30000000 gas  │
@@ -48,14 +49,15 @@ you can add the Gas Reporter:
 ···········································|··············|·············|·············|···············|··············
 |  Voting                                  ·           -  ·          -  ·    1970595  ·        6.6 %  ·          -  │
 ·------------------------------------------|--------------|-------------|-------------|---------------|-------------
-
+```
 
 ## Coverage 
 To get the coverage, please make the following command:
-```
+```bash
  cd Voting && npm run coverage
 ```
 
+```
 A HTML coverage report is available ! 
 
   Voting
@@ -171,3 +173,5 @@ File         |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
 -------------|----------|----------|----------|----------|----------------|
 All files    |      100 |      100 |      100 |      100 |                |
 -------------|----------|----------|----------|----------|----------------|
+
+```
